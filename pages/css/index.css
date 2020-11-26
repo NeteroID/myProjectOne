@@ -1,0 +1,35 @@
+#calend-header{
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+i{
+    font-size: 18px;
+}
+
+p{
+    display: inline;
+}
+
+#calend-table{
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    border-collapse: collapse;
+}
+
+#thiz-table{
+    border-collapse: collapse;
+    caption-side: bottom;
+    text-align: center;
+    padding: 10px 0;
+}
+
+td{
+    width: 30px;
+    border-right: 1px solid darkgrey;
+    border-left: 1px solid darkgrey;
+    color: #669;
+    padding: 12px 2px;
+
+}
